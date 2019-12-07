@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nouveau Employee{% endblock %}
+{% block style %}
+    <style>
+        .fr{
+            width: 100px;
+            background-color: #8fd19e;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+
+    <style>
+        body{
+            background-color: #8fd19e;
+        }
+    </style>
+    <div class="container">
+        <div class="col-xs-12 col-md-8 ">
+
+        <h1>Nouveau employee</h1>
+        <a href="{{ path('employee_index') }}" class="btn btn-primary">Revenir dans la liste</a>
+            {{ include('employee/_form.html.twig') }}
+        </div>
+    </div>
+
+
+{% endblock %}

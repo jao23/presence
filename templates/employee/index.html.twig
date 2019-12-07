@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Employee index{% endblock %}
+
+
+{% block body %}
+    <img src="/assets/team nl.jpg" width="100%" height="300" alt="retour">
+
+
+    <h1>Liste des employees</h1>
+    <style>
+        body{
+            background-color: #b3d7ff;
+        }
+    </style>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Adresse</th>
+
+                <th>Date_de_naissance</th>
+                <th>Code_qr</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for employee in employees %}
+            <tr>
+                <td style="width: 1%">{{ employee.id }}</td>
+                <td>{{ employee.nom }}</td>
+                <td>{{ employee.prenom }}</td>
+                <td>{{ employee.adresse }}</td>
+
+                <td style="width:1%">{{ employee.dateDeNaissance ? employee.dateDeNaissance|date('d-m-Y') : '' }}</td>
+                <td style="width:0.5%">{{ employee.codeQr }}</td>
+                <td>
+                    <a href="{{ path('employee_show', {'id': employee.id}) }}" class="btn btn-info" >Voir</a>
+                    <a href="{{ path('employee_edit', {'id': employee.id}) }}" class="btn btn-primary" >editer</a>
+
+
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="9">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('employee_new') }}"  class="btn btn-danger">Create new </a>
+{% endblock %}
