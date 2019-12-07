@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
@@ -123,9 +126,13 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
     </include_path>
   </component>
   <component name="ProjectId" id="1TFDAp0EWVSirMPQd7FaADlaGHb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -188,7 +195,7 @@
       <workItem from="1575705954247" duration="5000" />
       <workItem from="1575706005471" duration="22000" />
       <workItem from="1575707240590" duration="1041000" />
-      <workItem from="1575709442894" duration="501000" />
+      <workItem from="1575709442894" duration="2150000" />
     </task>
     <servers />
   </component>
