@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3049406c-700f-4506-9373-21347953455f" name="Default Changelist" comment="" />
+    <list default="true" id="3049406c-700f-4506-9373-21347953455f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +197,8 @@
       <workItem from="1575705954247" duration="5000" />
       <workItem from="1575706005471" duration="22000" />
       <workItem from="1575707240590" duration="1041000" />
-      <workItem from="1575709442894" duration="2150000" />
+      <workItem from="1575709442894" duration="3524000" />
+      <workItem from="1575718770561" duration="373000" />
     </task>
     <servers />
   </component>
@@ -203,10 +206,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="335" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1575709952656">
+    <state x="411" y="199" key="NewPhpClassDialog" timestamp="1575717894793">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="335" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1575709952656" />
+    <state x="411" y="199" key="NewPhpClassDialog/0.0.1280.770@0.0.1280.770" timestamp="1575717894793" />
+    <state x="335" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1575718793695">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="335" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1575718793695" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
