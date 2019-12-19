@@ -13,12 +13,12 @@
             }
         </style>
         <div class="col-xs-10 col-md-8 ">
-    <h1>Edit Employee</h1>
+    <h1 style="text-align: center; font-weight: bold; padding-top: 20px;">Modification de {{ employee.nom }}</h1>
 
-    {{ include('employee/_form.html.twig', {'button_label': 'Update'}) }}
+    {{ include('employee/_form.html.twig', {'button_label': 'Modification'}) }}
 
 
-    <a href="{{ path('employee_index') }}">Back to list</a>
+    <a href="{{ path('employee_index') }}" class="btn btn-warning">Retour</a>
 
     {{ include('employee/_delete_form.html.twig') }}
         </div>

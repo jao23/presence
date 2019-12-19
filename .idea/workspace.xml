@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3049406c-700f-4506-9373-21347953455f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/AbsenceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/absence/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/166128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/nl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/nl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/team nl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/team nl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employe/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employe/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employee/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employee/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employee/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employee/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/employee/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employee/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/presence/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presence/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,14 +157,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/employe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../corbanV2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\gestion_presence\public\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\gestion_presence\templates\employe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\gestion_presence\public\assets" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -198,22 +212,53 @@
       <workItem from="1575706005471" duration="22000" />
       <workItem from="1575707240590" duration="1041000" />
       <workItem from="1575709442894" duration="3524000" />
-      <workItem from="1575718770561" duration="373000" />
+      <workItem from="1575718770561" duration="1925000" />
+      <workItem from="1575872500864" duration="8000" />
+      <workItem from="1575872582810" duration="611000" />
+      <workItem from="1575877391582" duration="7477000" />
+      <workItem from="1575958983732" duration="7148000" />
+      <workItem from="1575967564842" duration="11403000" />
+      <workItem from="1576045743171" duration="4869000" />
+      <workItem from="1576071681036" duration="1443000" />
+      <workItem from="1576137731153" duration="7493000" />
+      <workItem from="1576567388676" duration="7044000" />
+      <workItem from="1576740719905" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="199" key="NewPhpClassDialog" timestamp="1575717894793">
+    <state x="392" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575979761168">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="411" y="199" key="NewPhpClassDialog/0.0.1280.770@0.0.1280.770" timestamp="1575717894793" />
-    <state x="335" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1575718793695">
+    <state x="392" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.770@0.0.1280.770" timestamp="1575979761168" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1576572269737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576572269737" />
+    <state x="411" y="199" key="NewPhpClassDialog" timestamp="1575979531270">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="335" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1575718793695" />
+    <state x="411" y="199" key="NewPhpClassDialog/0.0.1280.770@0.0.1280.770" timestamp="1575979531270" />
+    <state x="335" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1576137766498">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="335" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1576137766498" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,8 +275,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/templates/base.html.twig</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/PresenceController.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

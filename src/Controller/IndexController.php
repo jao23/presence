@@ -7,12 +7,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class IndexController extends AbstractController
 {
-    public function __construct()
-    {
-    }
 
     /**
-     * @Route("/", name="home")
+     * @Route("/", name="index")
      */
     public function index()
     {
@@ -20,7 +17,7 @@ class IndexController extends AbstractController
             return $this->redirectToRoute('connexion');
         }
         return $this->render('index/index.html.twig', [
-            'controller_name' => 'IndexController',
-        ]);
+        'controller_name' => 'IndexController',
+    ]);
     }
 }

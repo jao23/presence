@@ -13,9 +13,9 @@
                 background-color: #8fd19e;
             }
         </style>
-    <h1>Employee</h1>
+    <h1 style="text-align: center; font-weight: bold; padding-top: 20px;">A Propos de {{ employee.nom }}</h1>
 
-    <table class="table" style="width: 50%">
+    <table class="table" style="width: 50%; text-align: center">
         <tbody>
             <tr>
                 <th style="width: 3%">Id</th>
@@ -53,10 +53,10 @@
     </table>
 
 
-    <a href="{{ path('employee_index') }}">back to list</a>
+    <a href="{{ path('employee_index') }}" class="btn btn-info">Retour</a><br>
 
-    <a href="{{ path('employee_edit', {'id': employee.id}) }}">edit</a>
-
+    <a href="{{ path('employee_edit', {'id': employee.id}) }}" class="btn btn-warning">edit</a><br>
     {{ include('employee/_delete_form.html.twig') }}
+
     </div>
 {% endblock %}
